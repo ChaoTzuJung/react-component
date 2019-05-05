@@ -1,3 +1,30 @@
 /*
  * This is for global css usage.
  */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+body,
+input,
+select,
+textarea,
+button {
+	font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', 'sans-serif';
+}
+
+a {
+	text-decoration: none;
+}
