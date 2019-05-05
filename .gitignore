@@ -1,0 +1,12 @@
+# node
+node_modules/*
+*.log
+package-lock.json
+
+# build
+_public/*
+
+# test
+coverage/*
+*.pem
+.jest-test-results.json
