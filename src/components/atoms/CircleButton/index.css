@@ -1,0 +1,50 @@
+.circle-button {
+	display: inline-block;
+	position: relative;
+
+	& > .button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	& > .tooltip {
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		background: #F7BB29;
+		color: white;
+		font-size: 13px;
+		padding: 10px;
+		border-radius: 8px;
+
+		&.top {
+			top: auto;
+			bottom: 100%;
+			right: auto;
+			left: 50%;
+		}
+
+		&.left {
+			top: 0;
+			bottom: auto;
+			right: 100%;
+			left: auto;
+		}
+
+		&.right {
+			top: 0;
+			bottom: auto;
+			right: auto;
+			left: 100%;
+		}
+
+		&.bottom {
+			top: 100%;
+			bottom: auto;
+			right: auto;
+			left: 50%;
+		}
+	}
+}
